@@ -1,0 +1,53 @@
+/*
+  NAME: Ifrah Mohamed
+  DATE: 10/ 31/ 2019
+  SECTION/TA: Tal Walman AL
+  This is the css page for the styling of the game it includes the front sizes, background colors,
+  and more. There is a background image on the webpage
+ */
+body {
+  background-image: url("https://liberationescaperooms.com/wp-content/uploads/2018/02/question-marks-background.jpg");
+}
+
+section {
+  margin: 100px;
+  margin-top: 50px;
+  padding: 50px;
+  border: 5px solid black;
+  display: flex;
+  align-items: center;
+  background-color: lightblue;
+  width: 80%;
+  height: 40%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  border: 2px solid black;
+  width: 60px;
+  height: 30px;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+header > h1 {
+  font-size: 50px;
+  margin-top: 70px;
+  padding: 10px;
+}
+
+footer > h2 {
+  margin-bottom: 10px;
+}
+
+footer > h2, header > h1, button {
+  background-color: white;
+}
+
+footer > h2, header > h1 {
+  text-align: center;
+}

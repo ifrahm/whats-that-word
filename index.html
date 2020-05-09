@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+  ***
+  Name:Ifrah Mohamed
+  Date: 10/31/19
+  Section CSE 154 AL TA: Tal Wolman
+  This is the html file for the webpage. There is text box that the user can input 1 word and
+  choose whether they would like a definition a movie title.
+  ***
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Whats that word? </title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Whats that word? </h1>
+
+    </header>
+    <section id="home">
+
+      <h2>1. Enter 1 word to find the definitions<br>Or 2. Enter 1 word to find movies</h2>
+      <select id="select" >
+        <option value="Definition">Definition</option>
+        <option value="Movie" selected>Movie</option>
+      </select>
+      <input type="text" id="text-box" name="text">
+      <button id="enter-btn" name="enter-btn">Enter</button>
+    </section>
+    <section >
+      <ol id ="results">
+      </ol>
+    </section >
+  <footer>
+    <h2>Definitions brought to you by <a href="https://dictionaryapi.com">Merriam-Webster API</a>
+    </h2>
+    <h2>Movie titles brought to you by <a href="https://www.themoviedb.org/documentation/api"></a>
+      The Movie DB API</h2>
+  </footer>
+  </body>
+</html>
