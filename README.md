@@ -8,4 +8,4 @@ to asynchronously request and process response data on my website. There is text
 * Webster-Merriam Dictionary/Thesaurus APIs (requires API key)
 * Movie DB API (requires API key)
 
-![screenshot](screenshot-ww.png)
+
