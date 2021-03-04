@@ -1,9 +1,6 @@
 "use strict";
 
 /*
- * Name: Ifrah Mohamed
- * Date: 10/31/19
- * Section: CSE 154 AL
  * This is the js file for index.html. Using the dictionary api it finds definitions and using the
  * movie db, it finds movie titles, based on the user input.
  */
